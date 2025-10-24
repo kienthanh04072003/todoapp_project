@@ -1,0 +1,21 @@
+{
+  "name": "mernstack",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm install --prefix BackEnd && npm install --prefix FrontEnd && npm run build --prefix FrontEnd",
+    "start": "npm run start --prefix BackEnd"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kienthanh04072003/todoapp_project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kienthanh04072003/todoapp_project/issues"
+  },
+  "homepage": "https://github.com/kienthanh04072003/todoapp_project#readme",
+  "description": ""
+}
